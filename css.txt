@@ -1,0 +1,13 @@
+.container-fluid {
+  margin: 10% auto;
+}
+
+h1, .box, .title, p, footer {
+  font-family: Inconsolata;
+  color: white;
+}
+
+
+body {
+  background-color: #3F3F3F;
+}
