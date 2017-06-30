@@ -1,0 +1,32 @@
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1">
+ <title>Wikipedia Viewer</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center">Wikipedia Viewer</h1>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="input-group">
+                    <input id="input" type="text" class="form-control" placeholder="I want to learn about...">
+                    <span class="input-group-btn">          
+        <button id="search" class="button btn" type="button"><span class="glyphicon glyphicon-search"></span></button>
+                    </span>
+                    <span class="input-group-btn">
+        <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="button btn" type="button"><i class="fa fa-random" aria-hidden="true"></i></button></a>
+                  </span>
+                </div> <!-- /.input-group -->
+                <!-- /input-group -->
+            </div>
+            <!-- /.col-lg-6 -->
+        </div> <!-- /row -->
+        <div id="results">
+        </div> <!-- /#results -->
+    </div> <!-- /.container-fluid -->
+    <footer class="text-center">
+      <p><i class="fa fa-copyright" aria-hidden="true"></i>
+ Designed and coded by <a href="https://github.com/7saheelahmed" target="_blank">Saheel Ahmed</a>.</p>
+  </footer>
+</body>
