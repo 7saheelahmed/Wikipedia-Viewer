@@ -1,19 +1,22 @@
+<!DOCTYPE html>
+<html>
 <head>
- <meta charset="UTF-8">
- <meta name="viewport" content="width=device-width,initial-scale=1">
- <title>Wikipedia Viewer</title>
+   <meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Wikipedia Viewer</title>
 
-<!--Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+   <!--Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 
-<!--Font-->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css
-" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
-<!--Javascript-->
- <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script>
+   <!--Font-->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" />
+  
+   <!----CSS-------->
+  <link rel="stylesheet" href="styles.css"/>
+
 </head>
 
 <body>
@@ -41,4 +44,11 @@
       <p><i class="fa fa-copyright" aria-hidden="true"></i>
  Designed and coded by <a href="https://github.com/7saheelahmed" target="_blank">Saheel Ahmed</a>.</p>
   </footer>
+<!--Javascript-->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script type="text/javascript" src="script.js"></script>
+
+   
+ 
 </body>
+</html>
